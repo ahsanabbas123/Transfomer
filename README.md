@@ -16,6 +16,6 @@ The Transformer uses multi-head attention in three different ways:
 Multi30k : WMT'17 Multimodal Translation: de-en
   
 ## Bleu-Score
-The model reaches a bleu score of 34.4 which is comparable to the state of the art performances of recent models such as 'Multi-Agent Dual Learning' which reaches ~40 as reported on this [leaderboard](https://paperswithcode.com/sota/machine-translation-on-wmt2016-english-german)
+The model reaches a bleu score of 34.4 which is comparable to the state of the art performances of recent models such as 'Multi-Agent Dual Learning' which reaches ~40 as reported on this [leaderboard](https://paperswithcode.com/sota/machine-translation-on-wmt2016-english-german).
 
 
