@@ -3,6 +3,7 @@ This is a PyTorch implementation of the Transformer model in "[Attention is All 
 <p align="center">
 <img src="http://imgur.com/1krF2R6.png" width="250">
 </p>  
+
 ## Short Note on Attention in the model
 The Transformer uses multi-head attention in three different ways: 1) In “encoder-decoder attention” layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder. This allows every position in the decoder to attend over all positions in the input sequence. This mimics the typical encoder-decoder attention mechanisms in sequence-to-sequence models such as (cite).
 
