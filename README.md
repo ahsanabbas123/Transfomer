@@ -13,7 +13,7 @@ The Transformer uses multi-head attention in three different ways:
 3) Similarly, self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position. We need to prevent leftward information flow in the decoder to preserve the auto-regressive property. We implement this inside of scaled dot- product attention by masking out (setting to −∞) all values in the input of the softmax which correspond to illegal connections.  
 
 ## Dataset 
-Multi30k : WMT'17 Multimodal Translation: de-en
+Multi30k : WMT Multimodal Translation: de-en
   
 ## Bleu-Score
 The model reaches a bleu score of 34.4 which is comparable to the state of the art performances of recent models such as 'Multi-Agent Dual Learning' which reaches ~40 as reported on this [leaderboard](https://paperswithcode.com/sota/machine-translation-on-wmt2016-english-german).
