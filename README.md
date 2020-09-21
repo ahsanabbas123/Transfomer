@@ -10,7 +10,7 @@ The Transformer uses multi-head attention in three different ways:
 
 2) The encoder contains self-attention layers. In a self-attention layer all of the keys, values and queries come from the same place, in this case, the output of the previous layer in the encoder. Each position in the encoder can attend to all positions in the previous layer of the encoder.  
 
-3) Similarly, self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position. We need to prevent leftward information flow in the decoder to preserve the auto-regressive property. We implement this inside of scaled dot- product attention by masking out (setting to −∞) all values in the input of the softmax which correspond to illegal connections.  
+3) Similarly, self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position.
 
 ## Dataset 
 Multi30k : WMT Multimodal Translation: de-en
